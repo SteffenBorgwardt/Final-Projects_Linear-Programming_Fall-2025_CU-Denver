@@ -1,0 +1,12 @@
+set MODELS;
+param mpg {MODELS};
+param cyl {MODELS};
+param disp {MODELS};
+param hp {MODELS};
+param drat {MODELS};
+param wt {MODELS};
+param qsec {MODELS};
+param vs {MODELS};
+param am {MODELS};
+param gear {MODELS};
+param carb {MODELS};
