@@ -1,0 +1,21 @@
+set V := 1 2 3 4 5;
+
+# All 3-sets, each with a name (10 of them)
+set KSETS := u123 u124 u125 u134 u135 u145 u234 u235 u245 u345;
+
+# The independent triples S (edit these)
+set S := u123 u124 u125;
+
+# Incidence table: rows = KSETS, columns = V
+param inc:
+        1  2  3  4  5 :=
+ u123    1  1  1  0  0
+ u124    1  1  0  1  0
+ u125    1  1  0  0  1
+ u134    1  0  1  1  0
+ u135    1  0  1  0  1
+ u145    1  0  0  1  1
+ u234    0  1  1  1  0
+ u235    0  1  1  0  1
+ u245    0  1  0  1  1
+ u345    0  0  1  1  1 ;
